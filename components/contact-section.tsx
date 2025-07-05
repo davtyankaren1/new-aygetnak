@@ -63,7 +63,7 @@ export default function ContactSection() {
                     href='tel:+12345678901'
                     className='block text-[#274C22]/80 hover:text-[#4C6E2A] transition-colors'
                   >
-                    +374 77 122055
+                    +374 77 122050
                   </a>
                 </div>
               </div>

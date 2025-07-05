@@ -316,7 +316,7 @@ export default function Footer() {
                     href='tel:+12345678900'
                     className='text-white/80 hover:text-white transition-colors block'
                   >
-                    +374 77 122055
+                    +374 77 122050
                   </a>
                 </div>
               </li>
