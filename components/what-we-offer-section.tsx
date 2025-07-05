@@ -107,11 +107,7 @@ const offerings: Offering[] = [
     title: "Գիշերակացով սենյակ 5-6 հոգու համար",
     description:
       "Հարմարավետ սենյակ, որը տեղավորում է 5-6 մարդ՝ գիշերակացի համար։",
-    images: [
-      "/summer-house-bedroom.png",
-      "/garden-cabin-overnight.png",
-      "/multi-guest-sleeping.png"
-    ]
+    images: ["/images/room1.jpg"]
   },
   {
     icon: <Wifi className='h-8 w-8' />,

@@ -253,14 +253,14 @@ export default function HeroSection() {
           preload='auto'
           crossOrigin='anonymous'
         >
-          {/* <source
+          <source
             src='/videos/dji_fly_20250510_172426_472_1746995522516_video_2.mp4'
             type='video/mp4'
           />
           <source
             src='/videos/dji_fly_20250510_172426_472_1746995522516_video_2.mp4'
             type='video/webm'
-          /> */}
+          />
 
           {/* Alternative: Use external video URL (uncomment if needed) */}
           {/* <source src="https://your-video-url.com/video.mp4" type="video/mp4" /> */}
