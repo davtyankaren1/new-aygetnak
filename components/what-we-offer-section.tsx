@@ -17,7 +17,8 @@ import {
   Music,
   Footprints,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Image as ImageIcon
 } from "lucide-react";
 import SectionHeader from "./section-header";
 import { gsap } from "gsap";
@@ -43,8 +44,8 @@ const offerings: Offering[] = [
     icon: <Utensils className='h-8 w-8' />,
     title: "Գեղեցիկ սպասք",
     description:
-      "Էլեգանտ սպասքի ամբողջական հավաքածու՝ ձեր ճաշի փորձառության համար։",
-    images: ["/elegant-table-setting.png", "/outdoor-tableware.png"]
+      "Գեղեցիկ ու հարմարավետ սպասքի ամբողջական հավաքածու՝ ձեր ճաշի փորձառության համար։",
+    images: ["/images/posuda.jpg"]
   },
   {
     icon: <ChefHat className='h-8 w-8' />,
@@ -301,12 +302,12 @@ export default function WhatWeOfferSection() {
         <SectionHeader
           title='Մեր Առաջարկը'
           accentWord='Առաջարկը'
-          subtitle='Մեր այգու ամառային տունը տրամադրում է ամեն ինչ, ինչ անհրաժեշտ է բնության մեջ կատարյալ օր անցկացնելու համար։ Բացահայտեք բոլոր հարմարությունները, որոնք մենք պատրաստել ենք ձեր հարմարավետության համար։'
+          subtitle='Այգետնակ №206-ը տրամադրում է այն ամենը ինչ անհրաժեշտ է կատարյալ օր անցկացնելու համար։ Ծանոթացեք բոլոր հարմարություններին, որոնք առկա են՝ Ձեր իսկ հարմարավետության համար'
         />
       </div>
 
       <div className='relative'>
-        {/* Mobile Navigation Arrows - Moved 10px lower */}
+        {/* Mobile Navigation Arrows */}
         {isMobile && (
           <>
             <div className='absolute left-0 top-1/3 -translate-y-1/2 translate-y-2.5 z-10'>
@@ -331,7 +332,7 @@ export default function WhatWeOfferSection() {
           </>
         )}
 
-        {/* Desktop Navigation Arrows - Repositioned to be at the edges of the container */}
+        {/* Desktop Navigation Arrows */}
         {!isMobile && (
           <>
             <button
@@ -397,13 +398,27 @@ export default function WhatWeOfferSection() {
                       {offering.title}
                     </h3>
                   </div>
-                  <p
-                    className='text-[#274C22]/70'
-                    style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "space-between",
+                      height: "100%"
+                    }}
                   >
-                    {offering.description}
-                  </p>
-                  <p className='mt-5 text-sm'>Տեսնել նկարները</p>
+                    <p
+                      className='text-[#274C22]/70'
+                      style={{
+                        fontFamily: "Arial Armenian, Arial, sans-serif"
+                      }}
+                    >
+                      {offering.description}
+                    </p>
+                    <div className='mt-2 flex items-center gap-2 text-sm text-[#274C22]/70'>
+                      <ImageIcon className='h-4 w-4' />
+                      <span>Տեսնել նկարները</span>
+                    </div>
+                  </div>
                 </div>
 
                 {/* Image container (visible when hovered) */}
@@ -419,13 +434,10 @@ export default function WhatWeOfferSection() {
                     alt={offering.title}
                     className='w-full h-full object-cover'
                   />
-
-                  {/* Enhanced colored overlay with gradient and texture */}
                   <div className='absolute inset-0 bg-gradient-to-br from-[#274C22]/50 to-[#4C6E2A]/50'></div>
                   <div className='absolute inset-0 bg-gradient-to-tr from-[#274C22]/30 to-transparent'></div>
                   <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] opacity-10"></div>
 
-                  {/* Instructional text for multiple images */}
                   {hasMultipleImages && (
                     <div className='absolute bottom-8 left-0 right-0 px-4 text-center'>
                       <p
@@ -439,7 +451,6 @@ export default function WhatWeOfferSection() {
                     </div>
                   )}
 
-                  {/* Dot indicators for multiple images */}
                   {hasMultipleImages && (
                     <div className='absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2'>
                       {offering.images.map((_, imgIndex) => (
@@ -475,8 +486,7 @@ export default function WhatWeOfferSection() {
         {/* Pagination indicators */}
         <div className='flex justify-center mt-8 gap-2'>
           {isMobile
-            ? // Mobile pagination
-              Array.from({ length: offerings.length }).map((_, index) => (
+            ? Array.from({ length: offerings.length }).map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentMobileIndex(index)}
@@ -484,12 +494,11 @@ export default function WhatWeOfferSection() {
                     currentMobileIndex === index
                       ? "w-8 bg-[#274C22]"
                       : "w-2 bg-[#274C22]/30"
-                  } hover:bg-[#879D49] focus:outline-none focus:ring-2 focus:ring-[#879D49]/50`}
+                  }`}
                   aria-label={`Go to card ${index + 1}`}
                 />
               ))
-            : // Desktop pagination
-              Array.from({ length: totalPages }).map((_, index) => (
+            : Array.from({ length: totalPages }).map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentPage(index)}
@@ -497,7 +506,7 @@ export default function WhatWeOfferSection() {
                     currentPage === index
                       ? "w-8 bg-[#274C22]"
                       : "w-2 bg-[#274C22]/30"
-                  } hover:bg-[#879D49] focus:outline-none focus:ring-2 focus:ring-[#879D49]/50`}
+                  }`}
                   aria-label={`Go to page ${index + 1}`}
                 />
               ))}

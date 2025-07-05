@@ -216,7 +216,7 @@ export default function Footer() {
               <div className='h-12 w-12 relative overflow-hidden rounded-full'>
                 <Image
                   src='/website-logo.png'
-                  alt='Ամառային Տուն 206 լոգո'
+                  alt='Այգետնակ №206 լոգո'
                   width={48}
                   height={48}
                   className='object-cover w-full h-full'
@@ -226,7 +226,7 @@ export default function Footer() {
                 className='text-[#F3F3F3] font-light text-xl tracking-wider'
                 style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
               >
-                Ամառային Տուն{" "}
+                Այգետնակ №206{" "}
                 <span className='font-normal text-[#879D49]'>206</span>
               </span>
             </div>
@@ -255,15 +255,6 @@ export default function Footer() {
                 aria-label='Instagram'
               >
                 <Instagram className='h-5 w-5' />
-              </a>
-              <a
-                href='https://twitter.com'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors'
-                aria-label='Twitter'
-              >
-                <Twitter className='h-5 w-5' />
               </a>
             </div>
           </div>
@@ -319,7 +310,13 @@ export default function Footer() {
                     href='tel:+12345678900'
                     className='text-white/80 hover:text-white transition-colors block'
                   >
-                    +1 (234) 567-8900
+                    +374 93 122055
+                  </a>
+                  <a
+                    href='tel:+12345678900'
+                    className='text-white/80 hover:text-white transition-colors block'
+                  >
+                    +374 77 122055
                   </a>
                 </div>
               </li>
@@ -457,7 +454,7 @@ export default function Footer() {
                         fontFamily: "Arial Armenian, Arial, sans-serif"
                       }}
                     >
-                      9:00 - 20:00
+                      9:00 - 23:00
                     </span>
                   </div>
                   <div className='flex justify-between w-full'>
@@ -474,7 +471,7 @@ export default function Footer() {
                         fontFamily: "Arial Armenian, Arial, sans-serif"
                       }}
                     >
-                      8:00 - 22:00
+                      8:00 - 24:00
                     </span>
                   </div>
                   <p

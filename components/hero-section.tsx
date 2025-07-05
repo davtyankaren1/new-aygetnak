@@ -261,22 +261,10 @@ export default function HeroSection() {
             src='/videos/dji_fly_20250510_172426_472_1746995522516_video_2.mp4'
             type='video/webm'
           />
-
-          {/* Alternative: Use external video URL (uncomment if needed) */}
-          {/* <source src="https://your-video-url.com/video.mp4" type="video/mp4" /> */}
-
-          <img
-            src='/lush-garden-scene.png'
-            alt='Garden landscape'
-            className='w-full h-full object-cover'
-          />
         </video>
-        {/* Enhanced multi-layer overlay for depth and dimension */}
         <div className='absolute inset-0 bg-gradient-to-b from-[#274C22]/40 to-[#4C6E2A]/40 mix-blend-multiply' />
         <div className='absolute inset-0 bg-gradient-to-tr from-[#274C22]/30 to-transparent' />
         <div className='absolute inset-0 bg-black/20' />{" "}
-        {/* Subtle darkening for better text contrast */}
-        {/* Additional texture overlay */}
         <div className="absolute inset-0 bg-[url('/placeholder.svg?height=200&width=200')] opacity-5" />
       </div>
 

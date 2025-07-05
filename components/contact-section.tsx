@@ -17,7 +17,7 @@ export default function ContactSection() {
       <div className='absolute inset-0 z-0'>
         <img
           src='/garden-location-background.png'
-          alt='Garden landscape'
+          alt='x'
           className='w-full h-full object-cover opacity-20'
         />
         <div className='absolute inset-0 bg-gradient-to-r from-[#274C22]/40 to-[#4C6E2A]/40 mix-blend-multiply' />
@@ -57,13 +57,13 @@ export default function ContactSection() {
                     href='tel:+12345678900'
                     className='block text-[#274C22]/80 hover:text-[#4C6E2A] transition-colors'
                   >
-                    +1 (234) 567-8900
+                    +374 93 122055
                   </a>
                   <a
                     href='tel:+12345678901'
                     className='block text-[#274C22]/80 hover:text-[#4C6E2A] transition-colors'
                   >
-                    +1 (234) 567-8901
+                    +374 77 122055
                   </a>
                 </div>
               </div>
@@ -83,13 +83,13 @@ export default function ContactSection() {
                     className='text-[#274C22]/80'
                     style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
                   >
-                    Երկուշաբթի - Ուրբաթ: 9:00 - 20:00
+                    Երկուշաբթի - Ուրբաթ: 9:00 - 23:00
                   </p>
                   <p
                     className='text-[#274C22]/80'
                     style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
                   >
-                    Շաբաթ - Կիրակի: 8:00 - 22:00
+                    Շաբաթ - Կիրակի: 8:00 - 24:00
                   </p>
                   <p
                     className='text-[#274C22]/80 text-sm mt-1'
@@ -119,9 +119,7 @@ export default function ContactSection() {
                   className='text-[#274C22]/80'
                   style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
                 >
-                  Ամառային Տուն 206
-                  <br />
-                  Այգու Ճանապարհ
+                  Այգետնակ №206
                   <br />
                   Կոորդինատներ: 39.224527, 46.342792
                 </p>
