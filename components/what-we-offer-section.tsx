@@ -98,7 +98,7 @@ const offerings: Offering[] = [
   },
   {
     icon: <Heart className='h-8 w-8' />,
-    title: "Դեղատուփ",
+    title: "Առաջին օգնության դեղատուփ",
     description:
       "Համապարփակ առաջին օգնության պայուսակ՝ արտակարգ իրավիճակների համար։",
     images: ["/images/dexatup.png"]
@@ -108,7 +108,7 @@ const offerings: Offering[] = [
     title: "Գիշերակացով սենյակ 5-6 հոգու համար",
     description:
       "Հարմարավետ սենյակ, որը տեղավորում է 5-6 մարդ՝ գիշերակացի համար։",
-    images: ["/images/room1.jpg"]
+    images: ["/images/not-available.jpg"]
   },
   {
     icon: <Wifi className='h-8 w-8' />,
@@ -120,8 +120,15 @@ const offerings: Offering[] = [
     icon: <Music className='h-8 w-8' />,
     title: "Երաժշտություն և սեղանի խաղեր",
     description:
-      "Ժամանցի տարբերակներ՝ ներառյալ երաժշտություն և սեղանի խաղեր, ինչպիսիք են նարդին, շախմատը, խաղային կարտեր։",
-    images: ["/images/games1.png", "/images/music1.png"]
+      "Ժամանցի տարբերակներ՝ ներառյալ երաժշտություն և սեղանի խաղեր՝ նարդի, շախմատ, դոմինո, խաղային քարտեր",
+    images: [
+      "/images/games1.png",
+      "/images/music1.png",
+      "/images/domino.jpg",
+      "/images/cards.jpg",
+      "images/nardi.jpg",
+      "/images/shaxmat.jpg"
+    ]
   }
 ];
 
