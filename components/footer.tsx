@@ -310,13 +310,13 @@ export default function Footer() {
                     href='tel:+12345678900'
                     className='text-white/80 hover:text-white transition-colors block'
                   >
-                    +374 93 122055
+                    +374 77 122050
                   </a>
                   <a
                     href='tel:+12345678900'
                     className='text-white/80 hover:text-white transition-colors block'
                   >
-                    +374 77 122050
+                    +374 93 122055
                   </a>
                 </div>
               </li>
@@ -333,11 +333,7 @@ export default function Footer() {
                     className='text-white/80'
                     style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
                   >
-                    Ամառային Տուն 206
-                    <br />
-                    Այգու Ճանապարհ 42
-                    <br />
-                    Կանաչ Հովիտ, NV 12345
+                    Այգետնակ №206
                   </p>
                 </div>
               </li>
@@ -447,31 +443,14 @@ export default function Footer() {
                         fontFamily: "Arial Armenian, Arial, sans-serif"
                       }}
                     >
-                      Երկուշաբթի - Ուրբաթ
+                      Երկուշաբթի - Կիրակի
                     </span>
                     <span
                       style={{
                         fontFamily: "Arial Armenian, Arial, sans-serif"
                       }}
                     >
-                      9:00 - 23:00
-                    </span>
-                  </div>
-                  <div className='flex justify-between w-full'>
-                    <span
-                      className='text-white/80'
-                      style={{
-                        fontFamily: "Arial Armenian, Arial, sans-serif"
-                      }}
-                    >
-                      Շաբաթ - Կիրակի
-                    </span>
-                    <span
-                      style={{
-                        fontFamily: "Arial Armenian, Arial, sans-serif"
-                      }}
-                    >
-                      8:00 - 24:00
+                      10:00 - 22:30
                     </span>
                   </div>
                   <p
@@ -523,7 +502,7 @@ export default function Footer() {
             className='text-white/70 text-sm'
             style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
           >
-            © {currentYear} Ամառային Տուն 206։ Բոլոր իրավունքները պաշտպանված են։
+            © {currentYear} Այգետնակ №206։ Բոլոր իրավունքները պաշտպանված են։
           </p>
         </div>
       </div>

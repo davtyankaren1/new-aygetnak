@@ -57,13 +57,13 @@ export default function ContactSection() {
                     href='tel:+12345678900'
                     className='block text-[#274C22]/80 hover:text-[#4C6E2A] transition-colors'
                   >
-                    +374 93 122055
+                    +374 77 122050
                   </a>
                   <a
                     href='tel:+12345678901'
                     className='block text-[#274C22]/80 hover:text-[#4C6E2A] transition-colors'
                   >
-                    +374 77 122050
+                    +374 93 122055
                   </a>
                 </div>
               </div>
@@ -83,14 +83,9 @@ export default function ContactSection() {
                     className='text-[#274C22]/80'
                     style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
                   >
-                    Երկուշաբթի - Ուրբաթ: 9:00 - 23:00
+                    Երկուշաբթի - Կիրակի: 10:30 - 22:30
                   </p>
-                  <p
-                    className='text-[#274C22]/80'
-                    style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}
-                  >
-                    Շաբաթ - Կիրակի: 8:00 - 24:00
-                  </p>
+
                   <p
                     className='text-[#274C22]/80 text-sm mt-1'
                     style={{ fontFamily: "Arial Armenian, Arial, sans-serif" }}

@@ -56,7 +56,7 @@ const offerings: Offering[] = [
   {
     icon: <Flame className='h-8 w-8' />,
     title: "Խորովածի պարագաներ",
-    description: "Խորովածի գրիլ, շամփուրներ և ձկան խորովելու ցանց",
+    description: "Խորովածի շամփուրներ և ձկան խորովելու ցանց",
     images: ["/images/shampur1.png", "/images/shampur2.png"]
   },
   {
@@ -86,14 +86,14 @@ const offerings: Offering[] = [
   {
     icon: <Palmtree className='h-8 w-8' />,
     title: "Ճոճանակներ և պարահրապարակ",
-    description: "Ճոճանակներ ու հրապարակ ՝ հանգիստանալու և զվարճանալու համար։",
+    description: "Ճոճանակներ ու հրապարակ ՝ հանգստանալու և զվարճանալու համար։",
     images: ["/images/chochanak1.jpg"]
   },
   {
     icon: <Bath className='h-8 w-8' />,
     title: "Սանհանգույց և հանդերձարան",
     description:
-      "Մաքուր և հարմարավետ սանհանգույցային և հանդերձարանային հարմարություններ։",
+      "Մաքուր և հարմարավետ սանհանգուցային և հանդերձարանային հարմարություններ։",
     images: ["/images/toilet1.jpg"]
   },
   {
@@ -120,7 +120,7 @@ const offerings: Offering[] = [
     icon: <Music className='h-8 w-8' />,
     title: "Երաժշտություն և սեղանի խաղեր",
     description:
-      "Ժամանցի տարբերակներ՝ ներառյալ երաժշտություն և սեղանի խաղեր, ինչպիսիք են նարդին և շախմատը։",
+      "Ժամանցի տարբերակներ՝ ներառյալ երաժշտություն և սեղանի խաղեր, ինչպիսիք են նարդին, շախմատը, խաղային կարտեր։",
     images: ["/images/games1.png", "/images/music1.png"]
   }
 ];
